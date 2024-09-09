@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded",function(e){
     })
 
     profile_pic.addEventListener("click",function(e){
-        profile_pic.setAttribute("src",prompt("이미지 url을 입력해주세요"))
-        
+        profile_pic.setAttribute("src",prompt("이미지 url을 입력해주세요"))        
     })
+    
 })
