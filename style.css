@@ -3,7 +3,7 @@
 #top{
     display: grid;
     grid-template-columns: 4fr 7fr 4fr;
-    border-bottom: solid gray 0.1px;
+    border-bottom: solid rgb(197, 177, 177) 0.1px;
     padding-bottom: 3px;
     margin-bottom: 3vw;
     height: 10vw;
@@ -75,14 +75,27 @@ i{
     height: 15vw;  
 }
 /* 프로핀 편집 버튼 */
-button{
-    height: 80%;
-    width: 95%;
-    
-    font-size: 3vw;
-    background-color: yellowgreen;
-    border : 1px solid red;
-    border-radius: 3px;
+@media (max-width : 200px){
+    button{
+        height: 80%;
+        width: 95%;
+        
+        font-size: 3vw;
+        background-color: yellowgreen;
+        border : 1px solid red;
+        border-radius: 3px;
+    }
+}
+@media (min-width : 200px){
+    button{
+        height: 80%;
+        width: 95%;
+        
+        font-size: 3vw;
+        background-color: blueviolet;
+        border : 1px solid red;
+        border-radius: 3px;
+    }
 }
 /* -----썸네일----- */
 .thumbnail_grid{
